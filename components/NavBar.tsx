@@ -13,13 +13,13 @@ export default function NavBar() {
       </Link>
       <style jsx>{`
         nav {
-          background-color: tomato;
         }
         a {
           text-decoration: none;
+          color: black;
         }
         .active {
-          color: yellow;
+          color: tomato;
         }
       `}</style>
     </nav>
