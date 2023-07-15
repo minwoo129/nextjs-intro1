@@ -1,11 +1,10 @@
-import NavBar from "@/components/NavBar";
+import Layout from "@/components/Layout";
 import type { AppProps } from "next/app";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <>
-      <NavBar />
+    <Layout>
       <Component {...pageProps} />
-    </>
+    </Layout>
   );
 }
